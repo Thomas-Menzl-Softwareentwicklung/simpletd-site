@@ -10,7 +10,7 @@
 
 ## Setup
 
-1. Platzhalter ersetzen: `REPLACE_WITH_EMAIL`, Adresse, USt-Hinweis in den HTML-Dateien.
+1. USt-Platzhalter ersetzen: `REPLACE_WITH_VAT_OR_EXEMPTION` in `impressum.html` (E-Mail/Adresse sind gesetzt).
 2. Public Repo auf GitHub (Org):
 
 ```bash
