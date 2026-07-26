@@ -11,22 +11,22 @@
 ## Setup
 
 1. Platzhalter ersetzen: `REPLACE_WITH_EMAIL`, Adresse, USt-Hinweis in den HTML-Dateien.
-2. Public Repo auf GitHub (einmalig):
+2. Public Repo auf GitHub (Org):
 
 ```bash
 cd /Users/thomas/dev/simpletd-site
 gh auth login   # falls nötig
-gh repo create simpletd-site --public --source=. --remote=origin --push
-gh api repos/tom4711/simpletd-site/pages -X POST -f build_type=legacy -f source[branch]=main -f source[path]=/
+# Repo liegt unter Thomas-Menzl-Softwareentwicklung/simpletd-site
+gh api repos/Thomas-Menzl-Softwareentwicklung/simpletd-site/pages -X POST -f build_type=legacy -f source[branch]=main -f source[path]=/
 ```
 
-Erwartete Base-URL: `https://tom4711.github.io/simpletd-site/`
+Erwartete Base-URL: `https://thomas-menzl-softwareentwicklung.github.io/simpletd-site/`
 
-3. Optional als Submodule im privaten Game-Repo:
+3. Optional als Submodule im Game-Repo:
 
 ```bash
 cd /Users/thomas/dev/SimpleTD
-git submodule add https://github.com/tom4711/simpletd-site.git website
+git submodule add https://github.com/Thomas-Menzl-Softwareentwicklung/simpletd-site.git website
 git commit -m "Add public legal site as submodule."
 ```
 
