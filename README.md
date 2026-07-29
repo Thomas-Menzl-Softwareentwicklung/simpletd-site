@@ -15,8 +15,7 @@ Sprachumschalter **DE · EN** in der Navigation. Deutsch bleibt die Startseite; 
 
 ## Setup
 
-1. USt-Platzhalter ersetzen: `REPLACE_WITH_VAT_OR_EXEMPTION` in `impressum.html` (E-Mail/Adresse sind gesetzt).
-2. Public Repo auf GitHub (Org):
+1. Public Repo auf GitHub (Org):
 
 ```bash
 cd /Users/thomas/dev/simpletd-site
@@ -27,7 +26,7 @@ gh api repos/Thomas-Menzl-Softwareentwicklung/simpletd-site/pages -X POST -f bui
 
 Erwartete Base-URL: `https://thomas-menzl-softwareentwicklung.github.io/simpletd-site/`
 
-3. Optional als Submodule im Game-Repo:
+2. Optional als Submodule im Game-Repo:
 
 ```bash
 cd /Users/thomas/dev/SimpleTD
