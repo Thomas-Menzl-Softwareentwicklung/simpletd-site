@@ -4,9 +4,14 @@
 
 | Seite | URL (nach Pages) | ASC-Feld |
 |-------|------------------|----------|
-| Support | `…/index.html` oder Site-Root | Support URL |
-| Privacy | `…/privacy.html` | Privacy Policy URL |
-| Impressum | `…/impressum.html` | (DE-Pflicht auf der Website) |
+| Support (DE) | `…/index.html` oder Site-Root | Support URL |
+| Privacy (DE) | `…/privacy.html` | Privacy Policy URL |
+| Impressum (DE) | `…/impressum.html` | (DE-Pflicht auf der Website) |
+| Support (EN) | `…/en/index.html` | optional |
+| Privacy (EN) | `…/en/privacy.html` | optional |
+| Legal Notice (EN) | `…/en/impressum.html` | — |
+
+Sprachumschalter **DE · EN** in der Navigation. Deutsch bleibt die Startseite; Englisch liegt unter `/en/`.
 
 ## Setup
 
