@@ -44,6 +44,8 @@ header {
 }
 
 .brand {
+  line-height: 1.2;
+  max-width: min(100%, 14rem);
   margin: 0;
   font-weight: 700;
   letter-spacing: 0.02em;

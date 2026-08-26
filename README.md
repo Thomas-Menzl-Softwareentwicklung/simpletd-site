@@ -1,6 +1,6 @@
 # simpletd-site
 
-Öffentliche Legal-/Support-Seiten für **SimpleTD** (App Store Connect).
+Öffentliche Legal-/Support-Seiten für **Sector Command: Perimeter** (App Store Connect).
 
 | Seite | URL (nach Pages) | ASC-Feld |
 |-------|------------------|----------|
